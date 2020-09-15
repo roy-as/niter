@@ -87,7 +87,6 @@
           <a th:class="${sort == 'good' ? 'layui-this':''}" th:href="@{/forum/(sort='good',search=${search},tag=${tag},column=${column})}">精华</a>
           <span class="fly-filter-right">
             <!--a th:href="@{/t/(sort=${sort},search=${search},tag=${tag},column=${column})}" style="color: red" class="layui-hide-xs"><i class="layui-icon">&#xe636;</i>瀑布流</a-->
-            <a class="html5plus-hide" href="javascript:downloadApp()" style="color: red"><i class="layui-icon">&#xe63b;</i>APP</a>
             <span class="fly-mid layui-hide-xs"></span>
             <a th:href="@{/forum/(sort='new',search=${search},tag=${tag},column=${column})}" th:class="${sort == 'new' || sort == null ? 'layui-this layui-hide-xs':'layui-hide-xs'}">按最新</a>
             <span class="fly-mid layui-hide-xs"></span>

@@ -15,7 +15,7 @@ SET time_zone = "+00:00";
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET @OLD_COLLATION_CONNECTIFON=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
 --
@@ -134,7 +134,7 @@ CREATE TABLE `question` (
 --
 
 INSERT INTO `question` (`id`, `title`, `description`, `gmt_create`, `gmt_modified`, `creator`, `comment_count`, `view_count`, `like_count`, `tag`, `gmt_latest_comment`, `status`, `column2`, `permission`) VALUES
-(1, '欢迎访问，又一个NiterForum社区', '<p id=\"descriptionP\"><p><img src=\"/images/smile/douyin/bly.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">感谢您选用<a href=\"https://niter.cn/\" target=\"_blank\">NiterForum</a>社区</p><p><img src=\"/images/smile/douyin/bn8.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">关于站点的<span style=\"\\&quot;color:\" rgb(0,=\"\" 255,=\"\" 0);\\\"=\"\">配置</span>，您可以参考此帖：<a href=\"\\&quot;https://niter.cn/p/135\\&quot;\">https://niter.cn/p/135</a>&nbsp;&nbsp;</p><p><img src=\"/images/smile/douyin/bmp.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">关于<span style=\"\\&quot;color:\" rgb(249,=\"\" 150,=\"\" 59);\\\"=\"\">更新</span>日志，您可以关注此帖：<a href=\"\\&quot;https://niter.cn/p/26\\&quot;\">https://niter.cn/p/26</a>&nbsp;&nbsp;</p><p><img src=\"/images/smile/douyin/bp6.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">我们已经将<span style=\"\\&quot;color:\" rgb(255,=\"\" 0,=\"\" 0);\\\"=\"\">最新</span>版本的代码上传到了<a href=\"https://github.com/yourkevin/NiterForum/\" target=\"_blank\"><img style=\"height: 12px;\" src=\"https://api.d5.nz/api/favicon/?url=https://github.com/yourkevin/NiterForum/\">Github</a>与<a href=\"https://gitee.com/yourkevin/NiterForum/\" target=\"_blank\"><img style=\"height: 12px;\" src=\"https://api.d5.nz/api/favicon/?url=https://gitee.com/yourkevin/NiterForum/\">码云</a>，欢迎下载体验。</p><p><img src=\"/images/smile/douyin/blx.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">您可以编辑或者删除掉此帖。</p><p><br></p></p><p><br></p>', 1583505927481, 1583506092096, 1, 0, 6, 0, '教程,公告', 1583505927481, 1, 4, 0);
+(1, '欢迎访问，又一个ITer社区', '<p id=\"descriptionP\"><p><img src=\"/images/smile/douyin/bly.png\" alt=\"undefined\" data-w-e=\"1\" style=\"height: 20px;\">感谢您选用<a href=\"\" target=\"_blank\">ITer</a>社区</p>', 1583505927481, 1583506092096, 1, 0, 6, 0, '教程,公告', 1583505927481, 1, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -178,7 +178,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `account_id`, `qq_account_id`, `baidu_account_id`, `weibo_account_id`, `name`, `token`, `gmt_create`, `gmt_modified`, `avatar_url`, `email`, `phone`, `password`) VALUES
-(1, NULL, NULL, NULL, NULL, 'NiterBot', 'cccfcdb1-17d6-4183-a4e2-5ca911ba7199', 1583505749783, 1583506631145, '/images/avatar/default.png', NULL, NULL, NULL);
+(1, NULL, NULL, NULL, NULL, 'ITerBot', 'cccfcdb1-17d6-4183-a4e2-5ca911ba7199', 1583505749783, 1583506631145, '/images/avatar/default.png', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -232,7 +232,7 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`id`, `user_id`, `realname`, `userdetail`, `birthday`, `marriage`, `sex`, `blood`, `figure`, `constellation`, `education`, `trade`, `job`, `location`) VALUES
-(1, 1, NULL, '大家好，这里是NiterForum官方机器人', '1987-04-03', NULL, '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 1, NULL, '我是ITer官方机器人', '1987-04-03', NULL, '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables

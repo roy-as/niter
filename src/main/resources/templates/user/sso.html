@@ -107,10 +107,6 @@
                 </div>
                 <div class="layui-form-item fly-form-app">
                     <span th:text="${'或者使用社交账号'+sectionName}"></span>
-                    <a th:href="${'https://graph.qq.com/oauth2.0/authorize?client_id='+@environment.getProperty('qq.client.id')+'&redirect_uri='+@environment.getProperty('qq.redirect.uri')+'&response_type=code&state=1'}" onclick="layer.msg('正在通过QQ登入', {icon:16, shade: 0.1, time:0})" class="iconfont icon-qq html5plus-hide" title="QQ登入"></a>
-                    <a th:href="${'https://api.weibo.com/oauth2/authorize?client_id='+@environment.getProperty('weibo.client.id')+'&redirect_uri='+@environment.getProperty('weibo.redirect.uri')+'&response_type=code&state=1&scope=all'}" onclick="layer.msg('正在通过微博登入', {icon:16, shade: 0.1, time:0})" class="iconfont icon-weibo html5plus-hide" title="微博登入"></a>
-                    <a href="javascript:authLoginQq();" class="iconfont icon-qq html5plus-display" title="QQ登入" style="display: none"></a>
-                    <a href="javascript:authLoginWeibo();" class="iconfont icon-weibo html5plus-display" title="微博登入" style="display: none"></a>
                     <a th:href="${'https://openapi.baidu.com/oauth/2.0/authorize?client_id='+@environment.getProperty('baidu.client.id')+'&redirect_uri='+@environment.getProperty('baidu.redirect.uri')+'&response_type=code&state=1'}" onclick="layer.msg('正在通过百度登入', {icon:16, shade: 0.1, time:0})" class="iconfont" title="百度登入"><img src="/images/baidu120c.png" style="height: 26px"></a>
                     <a th:href="${'https://github.com/login/oauth/authorize?client_id='+@environment.getProperty('github.client.id')+'&redirect_uri='+@environment.getProperty('github.redirect.uri')+'&scope=user&state=1'}" onclick="layer.msg('正在通过GITHUB登入', {icon:16, shade: 0.1, time:0})" class="iconfont" title="GITHUB登入"><img src="/images/github120c.png" style="height: 26px"></a>
                 </div>
